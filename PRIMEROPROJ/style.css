@@ -1,0 +1,9 @@
+head,body,h1,h2,h3{
+	font-size:100;
+	background-color: Black;
+	font: ariel;
+	color: white;
+	text-align: center;
+} 
+h1,h2,h3,p{font-size: 35;
+	color:white;}
