@@ -1,9 +1,8 @@
-head,body,h1,h2,h3{
-	font-size:100;
+body {
+	font-size:16px;
 	background-color: Black;
-	font: ariel;
+	font-family:arial,sans-serif;
 	color: white;
 	text-align: center;
-} 
-h1,h2,h3,p{font-size: 35;
-	color:white;}
+}
+
