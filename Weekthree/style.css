@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+  background-size: cover;
+  background-color: #ffc3a0;
+  background-opacity:0.6;
+  font-family: Cambria,sans-serif;
+  color:#ffe6d4;
+ }
+ 
+ #animated-gif-contianer 
+ {
+ 	background-image: url(Users/BrokeProof/Desktop/Serenerinse.github.io/Week3/yucca2.gif);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+ 	  width:30em;
+    height:30em;    
+  
+  background-image: #c0c0c0 url(Users/BrokeProof/Desktop/Serenerinse.github.io/Week3/yucca2.gif) no-repeat center center;  
+}
+h1{font-size: 100px;
+  background-color: lightgray;
+	}
+
+hr {
+  width: 10em;
+}
+#slogan
+  {background-color: #835256;
+  font-style: italic;
+}
+
+h2,p.padding {
+    padding: 25px 50px;
+    margin: 50px 50px
+    
+}
+div, centered {text-align: left;
+    background-color: lightgrey;
+    width: 800px;
+    border: 10em gray;
+    margin: 0 auto;
+    display: box;
+    flex-align: center;
+    flex-pack: center
+
+}
+
