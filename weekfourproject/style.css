@@ -1,0 +1,80 @@
+body
+{
+  text-align: center;
+  background-size: cover;
+  background-color: #ffc3a0;
+  background-opacity:0.6;
+  color:#ffe6d4;
+ }
+
+}
+ #animated-gif-contianer 
+ {
+ 	background-image: url(Users/BrokeProof/Desktop/Serenerinse.github.io/Week3/yucca2.gif);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+  width:30em;
+  height:30em;    
+  
+  background-image: #c0c0c0 url(Users/BrokeProof/Desktop/Serenerinse.github.io/Week3/yucca2.gif) no-repeat center center;  
+}
+
+h1
+{
+  font-size: 100px;
+  padding: 13.5px 25px;
+  margin: 40px 40px;
+  background-color: lightgray;
+  font-family:'Peirot One', serif;
+  border-style:solid;
+  border-color:#FFD1C0;
+  font-weight:500;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
+	}
+
+hr
+{
+  width: 10em;
+}
+#slogan
+  {background-color: #835256;
+}
+
+h2,p.padding
+{
+    padding: 12.5px 25px;
+    margin: 25px 25px;
+    font-size: 2em;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+
+nav,.nav-list-item a
+{
+    font-family:'Josefin Sans';
+    font-size: 1.5em;
+    font-weight: 100px;
+    color: #2F343B;
+    letter-spacing: 20px;
+    background-color: #FFD7C0;
+    padding: 25px 50px;
+    margin: 50px 50px;
+}
+div, centered 
+{
+    text-align: left;
+    background-color: lightgrey;
+    width: 800px;
+    border: 10em gray;
+    margin: 0 auto;
+    display: box;
+    flex-align: center;
+    flex-pack: center
+}
+p
+{
+  font-family: 'Nixie One'
+  font-size: 35px;
+}
