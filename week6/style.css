@@ -1,0 +1,48 @@
+* { margin:0; padding:0; box-sizing:border-box; } /* simple css reset i want you all to be using in this course. it may seem counter-productive to have to set all of your margin and padding values instead of using the defaults, but i want you guys to become familiar with the need to set margins and paddings on elements. */
+p + p { margin-top: 1em; }
+p + a { margin-top:1.5em; }
+
+body {
+	font-size: 20px;
+	font-family:'Cabin Condensed', sans-serif;
+	background:#E7E8D1;
+}
+
+h1
+{
+  font-size: 100px;
+  padding: 13.5px 25px;
+  margin: 40px 40px;
+  background-color:#E7E8D1;
+  font-family:'Peirot One', serif;
+  border-style:solid;
+  border-color:#0069B8;
+  font-weight:500;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
+	}
+
+h1,h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	font-weight: 800;
+} 
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+    color: #007099;
+  	border-bottom-color: #007099;
+}
+
+h3 {
+	font-size: .5em;
+}
+
+
+img {
+	display: block;
+	margin: 0 auto;
+  	width: 480px;
+} 
