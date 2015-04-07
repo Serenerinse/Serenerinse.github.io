@@ -1,10 +1,9 @@
 body{
 	width: 100%;
-	margin: auto;xs	
+	margin: auto;	
 	font-size: 20px;
 	background-size: cover;
 	text-align: center;
-	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 	background:#F4F8F5;
 }
 
@@ -14,55 +13,74 @@ body{
    overflow: hidden;
    position: fixed;
    width: 100%;
-   height: 8em;
-   background-color:#EDEAEA;
-   padding: 2em 2em;
+   height: 7em;
+   padding: 1.5em 1.8em 2em 2em;
    text-align: left;
-  }
+   background-image: url("nat1.JPG");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  
+ }
 
 h1{
 	font-size: 70px;
-    font-family: Lucida Sans Unicode, cursive;
-	color:#F4F8F5;;
+    font-family: Lora,serif;
+	color:#F4F8F5;
 	font-weight:200;
      -webkit-text-stroke-width: 2px;
      -webkit-text-stroke-color: black;
-    border-bottom: 4px solid black;
+    border-bottom: 3px solid black;
 	display: inline-block;
 	padding: 10px 10px;
     margin: 20px 20px 10px 10px;
     text-align: left;
+
 }
 
-nav,.nav-list-item a 
+h2{	list-style-type:none; 
+	text-decoration: none;
+    letter-spacing: 5px;
+	color: #D6E6FF;
+	font-family: Lora, sans-serif;
+
+}
+
+nav,.nav-list-item,.navbar a 
 {
 	padding: 0px 0px;
-    margin: 6em 0 0 0;      
+    margin: 2em 0 3em 1em;      
     display: box;
-    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    list-style-type:none; 
+	text-decoration: none;
+    letter-spacing: 5px;
+	color: #D6E6FF;
+	font-size: 1.5em;
+	font-family: Lora, sans-serif;
+	-webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+   
 }
 
-aside,li {
+aside, ul,li {
 	float: left;
 	width: 220px;
-	padding: 20px 0;
-	margin:  23px 20px 0 5px;
+	padding: 20px 5px;
+	margin:  25px 20px 0 5px;
 	font-size: 25px;
-	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #2E302E;
-    letter-spacing: 5px;
-    font-family:'Josefin Sans';
 	display: inline;
+			
 }
 #content,img{
 	float: right
-	width: 560px;
-	padding:20px 0em 0em 0em;
-	margin: 5.5em 0em 4em 4em ;
-	width: 700px;
+	padding:6em 0em 6em 0em;
+	margin: 6em 0em 8em 4em ;
+	height: 900px;
 }
+
 #column2{
-	margin: 0em 10em;
+	margin: 0em 8em;
+	padding: 0 0;
+	
 }
 
 .clearfixafter{
@@ -73,4 +91,6 @@ aside,li {
 	clear: both;
 	height: 0;
 }
-.column{float: left}
+.column{
+	float: left
+}
