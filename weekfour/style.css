@@ -2,44 +2,26 @@ body
 {
   text-align: center;
   background-size: cover;
-  background-color: #ffc3a0;
+  background-color: #FCFFFF;
   background-opacity:0.6;
-  color:#ffe6d4;
+  color:#140800;
+  font-size: 16px;
  }
 
-}
- #animated-gif-contianer 
- {
- 	background-image: url(Users/BrokeProof/Desktop/Serenerinse.github.io/Week3/yucca2.gif);
- 	background-repeat: no-repeat;
- 	background-size: cover;
-  width:30em;
-  height:30em;    
-  
-  background-image: #c0c0c0 url(Users/BrokeProof/Desktop/Serenerinse.github.io/Week3/yucca2.gif) no-repeat center center;  
-}
 
 h1
 {
-  font-size: 100px;
-  padding: 13.5px 25px;
-  margin: 40px 40px;
-  background-color: lightgray;
+  font-size: 3em;
+  color: #FAE9E1;
+  background-color: #fff;
   font-family:'Peirot One', serif;
   border-style:solid;
   border-color:#FFD1C0;
   font-weight:500;
    -webkit-text-stroke-width: 3px;
    -webkit-text-stroke-color: black;
+   text-decoration: none;
 	}
-
-hr
-{
-  width: 10em;
-}
-#slogan
-  {background-color: #835256;
-}
 
 h2,p.padding
 {
@@ -51,30 +33,86 @@ h2,p.padding
     letter-spacing: 10px;
 }
 
-nav,.nav-list-item a
-{
-    font-family:'Josefin Sans';
-    font-size: 1.5em;
-    font-weight: 100px;
-    color: #2F343B;
-    letter-spacing: 20px;
-    background-color: #FFD7C0;
-    padding: 25px 50px;
-    margin: 50px 50px;
+header{
+  color: #2F343B;
+  position: fixed;
+  text-decoration: none;
 }
-div, centered 
-{
+
+nav,.nav-list-item a,.navbar{
+    font-family:'Josefin Sans';
+    font-size: 1.2em;
+    font-weight: 100px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    background-color: #FFD7C0;
+    padding: .1em .1em;
+    margin: .1em .1em;
+    border: 2em 2em
+    text-align: center;
+    display: block;
+}
+ centered{
     text-align: left;
-    background-color: lightgrey;
-    width: 800px;
-    border: 10em gray;
+    background-color: #fff;
+    width: 1200px;
+    border: 20em;
     margin: 0 auto;
     display: box;
-    flex-align: center;
-    flex-pack: center
+    flex-align: right;
+    flex-pack: right;
 }
-p
-{
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+p{
   font-family: 'Nixie One'
-  font-size: 35px;
+  font-size: 3px;
+}
+
+img{
+  max-width: 70em
+}
+
+#slogan{
+  background-color: #835256;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.column{
+  float:left;
+  width: 33.3%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+}
+
+#column1 {
+  background-color: #EC988E;
+}
+
+#column2 {
+  background-color: #8A1C11;
+} 
+
+#column3{
+  background-color: #B5A5A3
+}
+
+.cleafixafter{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  clear: both;
+  height: 0;
 }
