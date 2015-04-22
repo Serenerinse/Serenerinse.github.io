@@ -1,0 +1,120 @@
+body
+{
+  text-align: center;
+  background-size: cover;
+  background-color: #FCFFFF;
+  background-opacity:0.6;
+  color:#140800;
+  font-size: 16px;
+ }
+
+
+h1
+{
+  font-size: 3em;
+  color: #FAE9E1;
+  background-color: #fff;
+  font-family:'Peirot One', serif;
+  border-style:solid;
+  border-color:#FFD1C0;
+  font-weight:500;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: black;
+   text-decoration: none;
+	}
+
+h2,p.padding
+{
+    padding: 12.5px 25px;
+    margin: 25px 25px;
+    font-size: 2em;
+    font-family:'Josefin Sans',sans-serif;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+
+header{
+  color: #2F343B;
+  position: fixed;
+  text-decoration: none;
+}
+
+nav,.nav-list-item a,.navbar{
+    font-family:'Josefin Sans';
+    font-size: 1.2em;
+    font-weight: 100px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    background-color: #FFD7C0;
+    padding: .1em .1em;
+    margin: .1em .1em;
+    border: 2em 2em
+    text-align: center;
+    display: block;
+}
+ centered{
+    text-align: left;
+    background-color: #fff;
+    width: 1200px;
+    border: 20em;
+    margin: 0 auto;
+    display: box;
+    flex-align: right;
+    flex-pack: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+p{
+  font-family: 'Nixie One'
+  font-size: 3px;
+}
+
+img{
+  max-width: 70em
+}
+
+#slogan{
+  background-color: #835256;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 
+  padding
+}
+
+.column{
+  float:left;
+  width: 33.3%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+}
+
+#column1 {
+  background-color: #EC988E;
+}
+
+#column2 {
+  background-color: #8A1C11;
+} 
+
+#column3{
+  background-color: #B5A5A3
+}
+
+.cleafixafter{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  clear: both;
+  height: 0;
+}
