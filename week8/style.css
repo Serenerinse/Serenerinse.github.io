@@ -5,13 +5,16 @@ body
   background-color: #FCFFFF;
   background-opacity:0.6;
   color:#140800;
+  font-family:'Peirot One', serif;
   font-size: 16px;
+  margin: 0em 0em;
+  padding: 0em 0em;
  }
 
 
 h1
 {
-  font-size: 3em;
+  font-size: 5em;
   color: #FAE9E1;
   background-color: #fff;
   font-family:'Peirot One', serif;
@@ -20,83 +23,145 @@ h1
   font-weight:500;
    -webkit-text-stroke-width: 3px;
    -webkit-text-stroke-color: black;
-   text-decoration: none;
 	}
-
-h2,p.padding
-{
-    padding: 12.5px 25px;
-    margin: 25px 25px;
-    font-size: 2em;
-    font-family:'Josefin Sans',sans-serif;
-    font-weight: lighter;
-    letter-spacing: 10px;
-}
 
 header{
   color: #2F343B;
-  position: fixed;
-  text-decoration: none;
 }
 
 nav,.nav-list-item a,.navbar{
     font-family:'Josefin Sans';
-    font-size: 1.2em;
-    font-weight: 100px;
-    letter-spacing: 10px;
-    text-decoration: none;
-    background-color: #FFD7C0;
-    padding: .1em .1em;
-    margin: .1em .1em;
-    border: 2em 2em
+    font-weight: 20em;
+    letter-spacing: .5em;
+    background-color: #fff;
     text-align: center;
-    display: block;
+    font-style: none;
+    text-decoration: none;
 }
  centered{
-    text-align: left;
     background-color: #fff;
-    width: 1200px;
-    border: 20em;
-    margin: 0 auto;
+    width: 60%;
     display: box;
     flex-align: right;
     flex-pack: right;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  }
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 p{
   font-family: 'Nixie One'
   font-size: 3px;
 }
 
-img{
-  max-width: 70em
-}
-
-#slogan{
-  background-color: #835256;
-  text-align: center;
-  font-size: 1.5em;
-  margin: 
-  padding
-}
-
 .column{
   float:left;
-  width: 33.3%;
+  width: 30%;
   height: auto;
-  padding: 20px;
+  padding: 0;
   margin: 0;
+}
+
+.menu-block {
+  display: block;
+  float: right;
+  width: 23%;
+  height: 90px;
+  margin: 0;
+  text-align: left;
+  font-size: 33px;
+  line-height: 35px;
+  border-left: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+}
+
+#mirror{
+  width: 100%;
+}
+
+#logo{
+    display: none;
+  }
+
+
+@media only screen and (max-width: 500px){
+  .menu-block{
+    float: right;
+    width: 100%;
+    margin: 0;
+    line-height: 15px;
+    display: block;
+    font-size: 2.5em;
+    background-color: #FFD7C0; 
+    background-size: cover;
+    padding: .6em 0 0 0;
+    text-decoration: none;
+    font-style: none;
+}
+  h1{
+    display: none;
+  }
+  
+  #logo{
+    display: inline-block;
+    }
+}
+
+   #column2,#column3{
+    display: none;
+}
+  .column{
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: .5em
+}
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  #logo{
+    display: none;
+  }  
+  .menu-block{
+  float: right;
+  width: 50%;
+  margin: 0;
+  line-height: 25px;
+  display: block;
+  height: 90px;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 35px;
+  border-left: 1px solid black;
+  background-color: #FFD7C0;
+}
+  
+  h1{
+  font-size: 3em;
+  color: #FAE9E1;
+  background-color: #fff;
+  font-family:'Peirot One', serif;
+  }
+
+  .column{
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: .5em
+  }
+  #column2,#column3{
+    display: none;
+}
+  #mirror{
+      width:100%;} 
+
+  #bushcollage{
+      width: 10%;
+ }
+}
+
+iframe {
+  width: 100%;
 }
 
 #column1 {

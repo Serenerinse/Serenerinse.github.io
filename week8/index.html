@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link metaname="viewport" content="width= 1000">
+	<link metaname="viewport" content="width= 1200">
 	<title>THE PERCEPTIONIST</title>
 </head>
 
@@ -11,47 +11,56 @@
 
 	<header>
 		<h1>THE PERCEPTIONIST</h1>
+		<div id="logo">
+    		<img width="300"src="plogo.jpg">
+		</div>
 		<div class="navbar">
-			<nav>
-				<ol>
-					<li><a href="#">Textures</a></li>
-					<li><a href="#">Audio-Visual</a></li>
-					<li><a href="#">Documenta</a></li>
-				</ol>
-			</nav>
+                <div class="menu-block"><a href="texture.html">Textures</a></div>
+                <div class="menu-block"><a href="audiovisual.html">Audio-Visual</a></div>
+                <div class="menu-block"><a href="documenta.html">Documenta</a></div>
+                <div class="menu-block">Live Install</div>
 		</div>	
+		
 	</header>
 	
-	<h2 id="slogan">Documenta, Textures, Online Install</h2>
+
 
 	<section id="gifwall">
-			<iframe class="column1" id="column1" width="420" height="315" src="https://www.youtube.com/embed/WVjvw6benSU" frameborder="0" allowfullscreen></iframe>
-		
+			 <div class="column" id="column">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/WVjvw6benSU" frameborder="0" allowfullscreen></iframe>
+                </div>
 
-		<div class="column2" id="column2">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/WVjvw6benSU" frameborder="0" allowfullscreen></iframe>
-		</div>
+                <div class="column" id="column2">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/WVjvw6benSU" frameborder="0" allowfullscreen></iframe>
+                </div>
 
-		<div class="column3" id="column3">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/WVjvw6benSU" frameborder="0" allowfullscreen></iframe>
+                <div class="column" id="column3">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/WVjvw6benSU" frameborder="0" allowfullscreen></iframe>
+                </div>
 		</div>
 	</section>
-	
-	<section id="whitewall">
-		<img src="white.jpg" alt="whitewall">
-	</section>	
 
-	<section id="movingpics">
+	<section id="bushcollage">
 
-		<div class="animated-gif-container1">
-			<img src="bush.gif" alt="bush1">
+		<div class="column" id="column1"><img src="bush.gif" alt="bush1">
 		</div>	
-			<div class="animated-gif-container2"><img src="bush.gif"></div>
-			<img src="#">
-	<div class="animated-gif-container3"><img src="bush.gif"></div>
+		<div class="column" id="column2"><img src="bush.gif" alt="bush2">
+		</div>
+		<div class="column" id="column3"><img src="bush.gif" alt="bush2">
+		</div>
+			
 	</section>
+
+	<section id="mirror">
+		<div class="column" id="column1"><img width="300" src="mirror.gif" alt="mirror1">
+		</div>	
+		<div class="column" id="column2"><img width="300" src="mirror.gif" alt="mirror2">
+		</div>
+		<div class="column" id="column3"><img width="300" src="mirror.gif" alt="mirror3">
+		</div>
+	</section>
+
 </body>
 
-<footer><a href="contact.html">Find Me</a></footer>
 
 </html>
